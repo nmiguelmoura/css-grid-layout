@@ -8,23 +8,13 @@ module.exports=function(grunt){
                     sourcemap:'none'
                 },
                 files:{
-                    /*'www/css/index-style.css':'www/css/sass/index-style.scss'*/
+                    'css/index-grid-style.css':'css/sass/index-grid-style.scss',
+                    'css/index-demo-style.css':'css/sass/index-demo-style.scss'
                 }
             }
         },
-        uglify:{
-            options:{
-                banner:'/*Created by Nuno Machado*/\n'
-            },
-            build:{
-                files:{
-
-                }
-            }
-        }
     });
 
     grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.registerTask('default',['sass','uglify']);
+    grunt.registerTask('default',['sass']);
 };
