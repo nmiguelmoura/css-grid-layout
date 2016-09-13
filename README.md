@@ -8,6 +8,9 @@ Breakpoints:768px and 1024px
 
 Max-width:1200px
 
+<b>Usage</b>
+Option 1:
+On extra-small devices, all columns match 100% width. After 768px, column width is multiple of 100/12.
 	<div class="main" role="main">
         <div class="wrapper">
             <div class="row">
@@ -31,3 +34,12 @@ Max-width:1200px
         </div>
     </div>
 
+Option 2:
+Specify different column numbers for different viewports: extra-small (xs), small (sm) and medium (md).
+	<div class="wrapper">
+                <div class="row">
+                    <article class="xs-4-12 sm-6-12 md-3-12">4</article>
+                    <article class="xs-4-12 sm-6-12 md-3-12">4</article>
+                    <article class="xs-4-12 sm-6-12 md-3-12">4</article>
+                </div>
+            </div>

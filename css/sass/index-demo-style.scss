@@ -12,12 +12,20 @@ header{
   margin-bottom:5px;
 }
 
-[class*='col-span']{
-  background-color:#ff6262;
+[class*='col-span'],[class*='xs'],[class*='sm'],[class*='md']{
+  background-color:#0099FF;
   padding-top:5px;
   padding-bottom:5px;
   text-align:center;
   color:white;
+}
+
+[class*='xs']:not(:first-child),[class*='sm']:not(:first-child),[class*='md']:not(:first-child){
+  border-left:1px solid white;
+}
+
+[class*='col-span']{
+  background-color:#ff6262;
 }
 
 @media screen and (min-width:768px){
@@ -44,3 +52,4 @@ header{
     height:96px;
   }
 }
+
