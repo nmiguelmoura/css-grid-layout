@@ -1,6 +1,7 @@
 CSS Grid Layout (v0.1.1)
+=============
 
-12 columns CSS Grid layout to be used in simple web projects.
+A 12 columns CSS Grid layout to be used in simple web projects.
 
 Number of columns:12
 
