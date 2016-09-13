@@ -3,7 +3,9 @@ CSS Grid Layout (v0.1.0)
 12 columns CSS Grid layout to be used in simple web projects.
 
 Number of columns:12
+
 Breakpoints:768px and 1024px
+
 Max-width:1200px
 
 	<div class="main" role="main">
