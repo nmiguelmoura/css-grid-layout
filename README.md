@@ -5,9 +5,9 @@ A 12 columns responsive CSS Grid layout to be used in simple web projects.
 
 Number of columns:12
 
-Breakpoints:768px and 1024px
+Breakpoints:768px, 1024px and 1200px
 
-Max-width:1200px
+Max-width:1366px
 
 ### Usage ###
 Option 1:
@@ -42,9 +42,9 @@ Specify different column numbers for different viewports: extra-small (xs), smal
 ```
 	<div class="wrapper">
          <div class="row">
-			<article class="xs-4-12 sm-6-12 md-3-12">4</article>
-			<article class="xs-4-12 sm-6-12 md-3-12">4</article>
-			<article class="xs-4-12 sm-6-12 md-3-12">4</article>
+			<article class="xs-4-12 sm-6-12 md-3-12 lg-6-12">4</article>
+			<article class="xs-4-12 sm-6-12 md-3-12 lg-3-12">4</article>
+			<article class="xs-4-12 sm-6-12 md-3-12 lg-3-12">4</article>
 		</div>
 	</div>
 ```
