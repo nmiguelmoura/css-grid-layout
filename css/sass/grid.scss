@@ -37,7 +37,7 @@
 
 @media screen and (min-width: 1024px){
   .wrapper{
-    max-width:1200px;
+    max-width:1366px;
   }
 }
 
@@ -51,7 +51,7 @@
 }
 
 @media screen and (min-width:768px){
-  [class*='sm'],[class*='md']{
+  [class*='sm'],[class*='md'],[class*='lg']{
     float:left;
     padding-left:15px;
     padding-right:15px;
@@ -73,12 +73,15 @@
     }
   }
 
-  @media screen and (min-width:1024px){
+  @media screen and (min-width:1024px) and (max-width:1199px){
     .md-#{$i}-#{12}{
       width:$valWidth;
     }
   }
+
+  @media screen and (min-width:1200px){
+    .lg-#{$i}-#{12}{
+      width:$valWidth;
+    }
+  }
 }
-
-
-
