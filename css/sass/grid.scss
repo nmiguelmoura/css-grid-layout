@@ -8,16 +8,14 @@
   margin:0 auto;
 }
 
-.row:after{
-  content:' ';
-  display:block;
-  clear:both;
+.row{
+  display:flex;
+  flex-wrap:wrap;
 }
 
 //Primary grid
 //On extra-small devices, all columns match 100% width. After 768px, column width is multiple of 100/12.
 [class*="col-span"]{
-  float:left;
   width:100%;
 }
 
@@ -45,14 +43,12 @@
 //Secondary grid
 //Specify columns for different viewports: extra-small (xs), small (sm) and medium (md).
 [class*='xs']{
-  float:left;
   padding-left:5px;
   padding-right:5px;
 }
 
 @media screen and (min-width:768px){
   [class*='sm'],[class*='md'],[class*='lg']{
-    float:left;
     padding-left:15px;
     padding-right:15px;
   }
