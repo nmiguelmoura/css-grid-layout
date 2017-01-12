@@ -1,15 +1,19 @@
-CSS Grid Layout (v0.1.1)
-=============
+# CSS Grid Layout (v0.1.1)
+This is a 12 columns responsive CSS Grid layout to be used in simple web projects.
 
-A 12 columns responsive CSS Grid layout to be used in simple web projects.
+## Features
+- Number of columns:12
+- Breakpoints: 768px, 1024px and 1200px
+- Max-width:1366px
+- Two types of grid, when dealinh with small devices, one that makes all columns 100% and other that allows the user to select column width.
 
-Number of columns:12
+## Demonstration
+Clone repository to your sistem and run index.html in your browser to get a demonstration of the grid-system in action.
 
-Breakpoints:768px, 1024px and 1200px
+## Installation
+Clone repository to your system and include the path to `css/index-grid-style.css` in your html headers.
 
-Max-width:1366px
-
-### Usage ###
+## How to use (option 1)
 Option 1:
 On extra-small devices, all columns match 100% width. After 768px, column width is multiple of 100/12.
 ```
@@ -37,7 +41,7 @@ On extra-small devices, all columns match 100% width. After 768px, column width 
     </div>
 ```
 
-Option 2:
+## How to use (option 2):
 Specify different column numbers for different viewports: extra-small (xs), small (sm) and medium (md).
 ```
 	<div class="wrapper">
@@ -48,3 +52,7 @@ Specify different column numbers for different viewports: extra-small (xs), smal
 		</div>
 	</div>
 ```
+
+## How to contribute
+Spotted a bug or need a new feature? Please, create a new issue and explain what you need or what the problem is. Contributions are always welcome.
+You can also fork the repository and clone it to your system, and then make a pull request after your commits.
